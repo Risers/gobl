@@ -6,6 +6,10 @@ import (
 	"github.com/invopop/gobl/tax"
 )
 
+func init() {
+	tax.RegisterRegime(New())
+}
+
 // New instantiates a new Italian regime.
 func New() *tax.Regime {
 	return &tax.Regime{
