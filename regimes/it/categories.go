@@ -10,8 +10,7 @@ import (
 
 // Local tax category definitions which are not considered standard.
 const (
-	TaxCategoryRA   cbc.Code = "RA" // https://www.agenziaentrate.gov.it/portale/imposta-sul-reddito-delle-persone-fisiche-irpef-/aliquote-e-calcolo-dell-irpef
-	TaxCategoryINPS cbc.Code = "INPS"
+	TaxCategoryRA cbc.Code = "RA" // https://www.agenziaentrate.gov.it/portale/imposta-sul-reddito-delle-persone-fisiche-irpef-/aliquote-e-calcolo-dell-irpef
 )
 
 var categories = []*tax.Category{
